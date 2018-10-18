@@ -54,7 +54,7 @@ class Elevator(ElevatorSprite):
         raw_amount = (len(self.passengers)) / self.capacity
         # print("passengers" , len(self.passengers))
         rounded = round(raw_amount, 1)
-        print("rounded" , rounded)
+        print("rounded", rounded)
         # print("after rounded", len(self.passengers))
         return rounded
 
@@ -85,7 +85,7 @@ class Person(PersonSprite):
         self.start = start
         self.target = target
         self.anger_level = 0
-        PersonSprite.__init__(self,)
+        PersonSprite.__init__(self, )
 
     def get_anger_level(self) -> int:
         """Return this person's anger level.

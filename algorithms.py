@@ -23,9 +23,6 @@ import random
 from typing import Dict, List, Optional
 
 from entities import Person, Elevator
-
-#twang
-
 ###############################################################################
 # Arrival generation algorithms
 ###############################################################################
